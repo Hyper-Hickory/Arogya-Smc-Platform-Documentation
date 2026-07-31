@@ -193,7 +193,7 @@ The ASHA application digitizes field operations by replacing manual registers wi
 <p align="center">
 <img src="Assets/public_app1.jpeg" width="220">
 <img src="Assets/public_app2.jpeg" width="220">
-<img src="Assets/public_app3.jpeg" width="220">
+<img src="Assets/Public_app3.jpeg" width="220">
 </p>
 
 The citizen application focuses on improving public engagement by providing healthcare information, awareness campaigns, and simplified access to municipal health services through an intuitive mobile interface.
@@ -217,7 +217,7 @@ The Municipal Dashboard aggregates information from multiple stakeholders and pr
 The Arogya-SMC ecosystem follows a modular architecture that separates client applications, backend services, data storage, analytics, and administrative interfaces. This design improves maintainability while allowing independent development of platform components. :contentReference[oaicite:0]{index=0}
 
 <p align="center">
-<img src="Assets/architecture/system_architecture.png" width="100%">
+<img src="Assets/architecture/architecture.png" width="100%">
 </p>
 
 ---
