@@ -476,17 +476,18 @@ This project was developed as part of the **SAMVED 2026 Innovation Challenge** u
 
 ### Development Team
 
-| Name | Role |
-|------|------|
-| Your Name | Team Lead / Full Stack Development |
-| Member 2 | Mobile Development |
-| Member 3 | Backend Development |
-| Member 4 | Research & Documentation |
+## Contributors
 
-> Replace the above names with your team's actual details.
+This project was collaboratively developed for the **SAMVED 2026 Innovation Challenge**.
 
----
+| Contributor | Primary Contributions | GitHub |
+|-------------|-----------------------|--------|
+| **Bipin Kuruvilla** | Mobile application development, full-stack development, system design, AI integration, documentation, project coordination | [@Hyper-Hickory](https://github.com/Hyper-Hickory) |
+| **Suman Bhowmik** | Mobile application development, frontend implementation, testing, deployment support | [@sussyCODer4455](https://github.com/sussyCODer4455) |
+| **Stavan** | Backend development, API implementation, system integration, database connectivity | — |
+| **Raghav Sharma** | Feature implementation, testing, and project support | — |
 
+All contributors participated in the design, development, testing, and refinement of the Arogya-SMC platform. Responsibilities often overlapped throughout the project lifecycle, and the platform was completed through a collaborative team effort.
 # Acknowledgements
 
 We would like to express our sincere gratitude to:
