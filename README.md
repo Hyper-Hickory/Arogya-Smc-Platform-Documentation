@@ -163,7 +163,7 @@ Provides citizens with access to health-related services, public advisories, awa
 
 ## Municipal Dashboard
 
-<img src="Assets/Municipal_dashboard_1.png" width="220"/>
+<img src="Assets/Muncipal_dashboard_1.png" width="220"/>
 
 A centralized dashboard designed for municipal authorities to visualize healthcare trends, monitor disease statistics, evaluate ward-level indicators, and support public health planning.
 
@@ -203,9 +203,9 @@ The citizen application focuses on improving public engagement by providing heal
 ## Municipal Dashboard
 
 <p align="center">
-<img src="Assets/Municipal_dashboard_1.png" width="30%">
-<img src="Assets/Municipal_dashboard_2.png" width="30%">
-<img src="Assets/Municipal_dashboard_3.png" width="30%">
+<img src="Assets/Muncipal_dashboard_1.png" width="30%">
+<img src="Assets/Muncipal_dashboard_2.png" width="30%">
+<img src="Assets/Muncipal_dashboard_3.png" width="30%">
 </p>
 
 The Municipal Dashboard aggregates information from multiple stakeholders and presents interactive visualizations to support healthcare administrators. It enables monitoring of disease distribution, demographic indicators, healthcare resources, and operational performance across municipal wards.
@@ -227,7 +227,7 @@ The Arogya-SMC ecosystem follows a modular architecture that separates client ap
 The context diagram illustrates the interaction between external stakeholders—including citizens, ASHA workers, hospitals, laboratories, and municipal authorities—and the centralized healthcare platform. It highlights the flow of healthcare information across organizational boundaries while maintaining a unified data ecosystem. :contentReference[oaicite:1]{index=1}
 
 <p align="center">
-<img src="Assets/architecture/context_diagram.png" width="95%">
+<img src="Assets/architecture/context.png" width="95%">
 </p>
 
 ---
@@ -237,7 +237,7 @@ The context diagram illustrates the interaction between external stakeholders—
 The platform processes information through a structured workflow beginning with data collection, followed by validation, centralized storage, analytics, visualization, and decision support. This architecture enables timely reporting and supports municipal public health operations. :contentReference[oaicite:2]{index=2}
 
 <p align="center">
-<img src="Assets/architecture/data_flow.png" width="95%">
+<img src="Assets/architecture/dataflow.png" width="95%">
 </p>
 
 ---
