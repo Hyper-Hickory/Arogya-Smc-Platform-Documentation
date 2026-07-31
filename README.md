@@ -4,205 +4,125 @@
 
 <h1 align="center">Arogya-SMC</h1>
 
-<h3 align="center">
-Smart Public Health Management System for Municipal Healthcare
-</h3>
+<p align="center">
+Smart Public Health Monitoring & Decision Support System
+<br>
+for Solapur Municipal Corporation
+</p>
 
 <p align="center">
 
-![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Android-blue)
-![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-success)
-![Database](https://img.shields.io/badge/Database-MySQL-orange)
-![Frontend](https://img.shields.io/badge/Frontend-Android%20%7C%20React-9cf)
-![License](https://img.shields.io/badge/License-Academic-lightgrey)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+<img src="https://img.shields.io/badge/Competition-SAMVED%202026-blue">
+
+<img src="https://img.shields.io/badge/Category-Smart%20Healthcare-success">
+
+<img src="https://img.shields.io/badge/Status-Prototype-orange">
+
+<img src="https://img.shields.io/badge/License-Academic-lightgrey">
 
 </p>
 
 ---
 
+## Contents
+
+- Overview
+- Recognition
+- Problem Statement
+- Solution Overview
+- Platform Overview
+- System Architecture
+- Platform Modules
+- Technology Stack
+- Repository Structure
+- Project Demonstration
+- Technical Documentation
+- Contributors
+- Future Scope
+- License
+
+---
+
 # Overview
 
-**Arogya-SMC** is a digital public healthcare platform designed for municipal corporations to streamline disease surveillance, citizen healthcare services, hospital management, and field data collection.
+Arogya-SMC is a smart public healthcare platform designed for **Solapur Municipal Corporation (SMC)** to improve disease surveillance, municipal healthcare operations, and citizen health services through a unified digital ecosystem.
 
-The platform provides a unified ecosystem where **ASHA workers, citizens, hospitals, and municipal authorities** collaborate through dedicated applications connected to a centralized backend.
+The platform integrates multiple healthcare stakeholders—including ASHA workers, hospitals, citizens, and municipal authorities—into a centralized system for real-time reporting, analytics, and decision support.
 
-Instead of relying on paper records and disconnected workflows, Arogya-SMC digitizes healthcare operations by enabling:
+Unlike traditional municipal healthcare workflows that depend on fragmented records and delayed reporting, Arogya-SMC provides a modular digital platform capable of supporting field data collection, healthcare monitoring, ward-level analytics, and public health administration. The project addresses the challenge of fragmented health information across ASHA workers, hospitals, and laboratories while enabling centralized monitoring and structured decision support. :contentReference[oaicite:0]{index=0}
 
-- Digital beneficiary registration
-- Disease reporting
-- Real-time health monitoring
-- Hospital management
-- Citizen healthcare services
-- Municipal analytics
-- Data-driven decision making
+---
 
-The project was developed as a complete Smart City healthcare solution with emphasis on scalability, accessibility, and transparency.
+# Recognition
+
+Arogya-SMC was developed for the **SAMVED 2026 Innovation Challenge**.
+
+The project was selected among the **Top 7 teams** from **546 participating teams across 10 states**, recognizing the team's approach to solving municipal public healthcare challenges through an integrated digital platform.
+
+The official selection document is available in:
+
+```text
+assets/
+└── Achievements/
+    └── achievement.pdf
+```
+
+---
+
+# Project Demonstration
+
+The complete prototype demonstration is available on YouTube.
+
+**Demo Video**
+
+https://youtu.be/0s_siwg91rY
 
 ---
 
 # Problem Statement
 
-Municipal healthcare systems often face several operational challenges:
+Municipal healthcare systems often operate using disconnected data sources distributed across ASHA workers, hospitals, laboratories, and administrative departments.
 
-- Manual maintenance of health records
-- Delayed disease reporting
-- Lack of centralized patient information
-- Limited communication between hospitals and field workers
-- Poor visibility into healthcare analytics
-- Difficulty in tracking public health programs
+This results in:
 
-These issues lead to delayed decision-making and inefficient resource allocation.
+- fragmented health records
+- delayed disease reporting
+- manual data consolidation
+- limited ward-level visibility
+- inefficient resource allocation
+- delayed public health response
+
+The absence of a centralized health information platform prevents municipal authorities from identifying emerging disease trends and making timely, evidence-based decisions. :contentReference[oaicite:1]{index=1}
 
 ---
 
 # Solution
 
-Arogya-SMC addresses these challenges by integrating multiple healthcare stakeholders into one digital platform.
+Arogya-SMC proposes an integrated Smart Public Health Monitoring & Decision Support System that connects field workers, hospitals, citizens, and municipal authorities through a centralized digital platform.
 
-The solution consists of:
+The system focuses on:
 
-- ASHA Worker Mobile Application
-- Citizen Mobile Application
-- Hospital Management Portal
-- Municipal Administration Dashboard
-- Centralized Backend Services
+- Digital field reporting
+- Structured healthcare data collection
+- Disease surveillance
+- Municipal decision support
+- Citizen healthcare services
+- Healthcare resource monitoring
+- Real-time analytics
+- Public health awareness
 
-Together, these components provide a seamless public healthcare ecosystem.
-
----
-
-# Key Features
-
-## ASHA Worker Module
-
-- Beneficiary Registration
-- Family Survey
-- Pregnancy Monitoring
-- Child Health Records
-- Vaccination Tracking
-- Disease Reporting
-- Offline Data Collection
-- Secure Authentication
+The proposed platform follows a modular architecture that enables secure data collection, standardization, analytics, and visualization while supporting future expansion toward interoperable municipal healthcare systems. :contentReference[oaicite:2]{index=2}
 
 ---
 
-## Citizen Application
+# Platform Overview
 
-- Nearby Hospitals
-- Healthcare Announcements
-- Government Health Schemes
-- Emergency Contacts
-- Public Health Notifications
-- Healthcare Information
+The ecosystem consists of five major components working together.
 
----
-
-## Municipal Dashboard
-
-- Disease Analytics
-- Ward-wise Statistics
-- Health Program Monitoring
-- Resource Allocation
-- Citizen Reports
-- Administrative Controls
-
----
-
-## Hospital Portal
-
-- Patient Records
-- Hospital Registration
-- Resource Management
-- Health Data Synchronization
-- Medical Reporting
-
----
-
-# System Architecture
-
-```text
-                        +----------------------+
-                        | Municipal Dashboard  |
-                        +----------+-----------+
-                                   |
-                                   |
-+-------------+          +----------v-----------+
-| Citizen App |--------->| Spring Boot Backend  |
-+-------------+          +----------+-----------+
-                                   |
-                                   |
-+-------------+          +----------v-----------+
-| ASHA Worker |--------->|      MySQL DB        |
-|     App     |          +----------+-----------+
-+-------------+                     |
-                                    |
-                          +---------v---------+
-                          | Hospital Portal   |
-                          +-------------------+
-```
-
----
-
-# Technology Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Backend | Spring Boot, Java |
-| Mobile | Android (Java) |
-| Dashboard | React.js |
-| Database | MySQL |
-| Authentication | JWT |
-| API | REST APIs |
-| Version Control | Git, GitHub |
-| IDE | Android Studio, VS Code, IntelliJ IDEA |
-
----
-
-# Platform Components
-
-| Module | Description |
-|---------|-------------|
-| ASHA Worker App | Digital field healthcare management |
-| Citizen App | Healthcare services for citizens |
-| Hospital Portal | Hospital operations and reporting |
-| Municipal Dashboard | Administration and analytics |
-| Backend APIs | Centralized business logic and database management |
-
----
-
-# Project Highlights
-
-- Multi-platform Healthcare Ecosystem
-- Role-based Access Control
-- RESTful Architecture
-- Centralized Database
-- Real-time Data Synchronization
-- Scalable Modular Design
-- Smart City Healthcare Initiative
-- Municipal Decision Support System
-
----
-
-# Repository Architecture
-
-The Arogya-SMC ecosystem is divided into multiple repositories for modular development and maintainability.
-
-```
-
----
-
-## End of Part 1 ✅
-
-This already looks far more professional than a typical college README.
-
-### **Part 2** will include:
-
-- 📱 Beautiful screenshots (ASHA & Public App)
-- 📂 Repository links
-- ▶️ YouTube demo
-- 🚀 Installation
-- 📁 Project structure
-- ⚙️ Getting Started
-
-It will make the README feel like a polished open-source project landing page.
+| Component | Purpose |
+|-----------|---------|
+| ASHA Worker Application | Field data collection and healthcare reporting |
+| Citizen Application | Public health services and advisories |
+| Hospital Portal | Hospital capacity and disease reporting |
+| Municipal Dashboard | Analytics, monitoring and decision support |
+| Backend Services | Centralized data processing and API services |
