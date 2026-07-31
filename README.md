@@ -125,3 +125,119 @@ The ecosystem consists of five major components working together.
 | Hospital Portal | Hospital capacity and disease reporting |
 | Municipal Dashboard | Analytics, monitoring and decision support |
 | Backend Services | Centralized data processing and API services |
+---
+
+# Platform Overview
+
+Arogya-SMC is designed as a multi-platform healthcare ecosystem where each component serves a specific stakeholder while remaining connected through centralized backend services.
+
+The platform consists of independent applications for ASHA workers, citizens, healthcare administrators, and municipal authorities, enabling efficient data collection, healthcare monitoring, and evidence-based decision-making.
+
+---
+
+# Platform Modules
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+## ASHA Worker Application
+
+<img src="Assets/asha_app_1.jpeg" width="220"/>
+
+Designed for Accredited Social Health Activists (ASHAs), this application enables healthcare workers to digitally record household surveys, monitor pregnancies, track immunization schedules, report communicable diseases, and synchronize field data with the central platform.
+
+</td>
+
+<td align="center" width="33%">
+
+## Citizen Application
+
+<img src="Assets/public_app1.jpeg" width="220"/>
+
+Provides citizens with access to health-related services, public advisories, awareness initiatives, and communication with municipal healthcare systems through a mobile-first interface.
+
+</td>
+
+<td align="center" width="33%">
+
+## Municipal Dashboard
+
+<img src="Assets/Municipal_dashboard_1.png" width="220"/>
+
+A centralized dashboard designed for municipal authorities to visualize healthcare trends, monitor disease statistics, evaluate ward-level indicators, and support public health planning.
+
+</td>
+</tr>
+</table>
+
+---
+
+# Application Gallery
+
+## ASHA Worker Application
+
+<p align="center">
+<img src="Assets/asha_app_1.jpeg" width="220">
+<img src="Assets/asha_app_2.jpeg" width="220">
+<img src="Assets/asha_app_3.jpeg" width="220">
+<img src="Assets/asha4.jpeg" width="220">
+</p>
+
+The ASHA application digitizes field operations by replacing manual registers with structured digital workflows. It enables healthcare workers to capture demographic information, conduct household surveys, report health events, and synchronize collected data with the municipal platform.
+
+---
+
+## Citizen Application
+
+<p align="center">
+<img src="Assets/public_app1.jpeg" width="220">
+<img src="Assets/public_app2.jpeg" width="220">
+<img src="Assets/public_app3.jpeg" width="220">
+</p>
+
+The citizen application focuses on improving public engagement by providing healthcare information, awareness campaigns, and simplified access to municipal health services through an intuitive mobile interface.
+
+---
+
+## Municipal Dashboard
+
+<p align="center">
+<img src="Assets/Municipal_dashboard_1.png" width="30%">
+<img src="Assets/Municipal_dashboard_2.png" width="30%">
+<img src="Assets/Municipal_dashboard_3.png" width="30%">
+</p>
+
+The Municipal Dashboard aggregates information from multiple stakeholders and presents interactive visualizations to support healthcare administrators. It enables monitoring of disease distribution, demographic indicators, healthcare resources, and operational performance across municipal wards.
+
+---
+
+# System Architecture
+
+The Arogya-SMC ecosystem follows a modular architecture that separates client applications, backend services, data storage, analytics, and administrative interfaces. This design improves maintainability while allowing independent development of platform components. :contentReference[oaicite:0]{index=0}
+
+<p align="center">
+<img src="Assets/architecture/system_architecture.png" width="100%">
+</p>
+
+---
+
+# Context Diagram
+
+The context diagram illustrates the interaction between external stakeholders—including citizens, ASHA workers, hospitals, laboratories, and municipal authorities—and the centralized healthcare platform. It highlights the flow of healthcare information across organizational boundaries while maintaining a unified data ecosystem. :contentReference[oaicite:1]{index=1}
+
+<p align="center">
+<img src="Assets/architecture/context_diagram.png" width="95%">
+</p>
+
+---
+
+# Data Flow
+
+The platform processes information through a structured workflow beginning with data collection, followed by validation, centralized storage, analytics, visualization, and decision support. This architecture enables timely reporting and supports municipal public health operations. :contentReference[oaicite:2]{index=2}
+
+<p align="center">
+<img src="Assets/architecture/data_flow.png" width="95%">
+</p>
+
+---
