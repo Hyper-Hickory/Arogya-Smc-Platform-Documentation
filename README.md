@@ -477,17 +477,17 @@ This project was developed as part of the **SAMVED 2026 Innovation Challenge** u
 ### Development Team
 
 ## Contributors
-
 This project was collaboratively developed for the **SAMVED 2026 Innovation Challenge**.
 
 | Contributor | Primary Contributions | GitHub |
 |-------------|-----------------------|--------|
-| **Bipin Kuruvilla** | Mobile application development, full-stack development, system design, AI integration, documentation, project coordination | [@Hyper-Hickory](https://github.com/Hyper-Hickory) |
-| **Suman Bhowmik** | Mobile application development, frontend implementation, testing, deployment support | [@sussyCODer4455](https://github.com/sussyCODer4455) |
-| **Stavan** | Backend development, API implementation, system integration, database connectivity | — |
-| **Raghav Sharma** | Feature implementation, testing, and project support | — |
+| **Bipin Kuruvilla** | Mobile application development, full-stack development, system design, AI integration, documentation, and project coordination | [@Hyper-Hickory](https://github.com/Hyper-Hickory) |
+| **Suman Bhowmik** | Mobile application development, frontend implementation, testing, and deployment support | [@Suman7998](https://github.com/Suman7998) |
+| **Stavan** | Backend development, REST API implementation, system integration, and database connectivity | [@Stavan1234](https://github.com/Stavan1234) |
+| **Aaron Antony** | Video editing, presentation preparation, deployment assistance, documentation support, and project coordination | [@sussyCODer4455](https://github.com/sussyCODer4455) |
+| **Raghav Sharma** | Feature implementation, testing, and general project support | — |
 
-All contributors participated in the design, development, testing, and refinement of the Arogya-SMC platform. Responsibilities often overlapped throughout the project lifecycle, and the platform was completed through a collaborative team effort.
+> This project was completed through a collaborative team effort. While individual members focused on different areas of the system, the design, development, testing, documentation, and refinement of the platform were carried out collectively.
 # Acknowledgements
 
 We would like to express our sincere gratitude to:
