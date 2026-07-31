@@ -367,3 +367,156 @@ The project was developed around the following engineering principles:
 - Extensibility for future municipal healthcare requirements
 
 ---
+# Technology Stack
+
+The project combines modern web, mobile, backend, and database technologies to provide an integrated public healthcare platform.
+
+## Implemented Prototype
+
+| Category | Technologies |
+|----------|--------------|
+| Mobile Applications | Flutter |
+| Frontend | React.js |
+| Backend | Node.js |
+| Database | PostgreSQL |
+| Authentication | JWT-based Authentication |
+| GIS Support | PostGIS |
+| Notifications | Firebase Cloud Messaging |
+| Version Control | Git & GitHub |
+
+The implemented prototype demonstrates the complete workflow across mobile applications, backend services, and the municipal dashboard while validating the proposed healthcare architecture. :contentReference[oaicite:0]{index=0}
+
+---
+
+## Proposed Production Architecture
+
+The design documents outline several enhancements intended for a production-scale deployment. These represent future architectural goals and are **not part of the current prototype implementation**.
+
+Potential enhancements include:
+
+- API Gateway
+- HL7 FHIR interoperability
+- Advanced analytics pipeline
+- Scalable deployment infrastructure
+- Predictive public health analytics
+- Enterprise monitoring and logging
+- High availability and disaster recovery
+
+These components illustrate the long-term vision of the platform as described in the project documentation. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Technical Documentation
+
+Detailed project documentation is available in the `documentation/` directory.
+
+The repository includes:
+
+- Project Report
+- Idea Submission Report
+- System Architecture
+- Problem Statement
+- Objectives
+- Module Design
+- Workflow Diagrams
+- Technology Overview
+- Implementation Details
+
+These documents provide a comprehensive overview of the project's design, implementation, and future roadmap.
+
+---
+
+# Demonstration
+
+A complete demonstration of the Arogya-SMC prototype is available on YouTube.
+
+**Project Demo**
+
+https://youtu.be/0s_siwg91rY
+
+---
+
+# Recognition
+
+The project was selected among the **Top 7 teams** from **546 participating teams across 10 states** in the **SAMVED 2026 Innovation Challenge**.
+
+This recognition reflects the project's focus on addressing real-world municipal healthcare challenges through an integrated digital platform.
+
+The official recognition document is available under:
+
+```text
+assets/
+└── achievements/
+```
+
+---
+
+# Future Scope
+
+The current prototype establishes a strong foundation for future development. Potential enhancements include:
+
+- Hospital Information System integration
+- Laboratory information management
+- Real-time disease outbreak prediction
+- AI-assisted healthcare analytics
+- Telemedicine support
+- Electronic Health Record (EHR) interoperability
+- GIS-based disease hotspot visualization
+- Offline-first synchronization for field workers
+- Cloud-native deployment
+- Multi-language support
+- Role-specific reporting dashboards
+- State-wide scalability beyond municipal deployment
+
+---
+
+# Contributors
+
+This project was developed as part of the **SAMVED 2026 Innovation Challenge** under the guidance of faculty mentors and with support from Solapur Municipal Corporation.
+
+### Development Team
+
+| Name | Role |
+|------|------|
+| Your Name | Team Lead / Full Stack Development |
+| Member 2 | Mobile Development |
+| Member 3 | Backend Development |
+| Member 4 | Research & Documentation |
+
+> Replace the above names with your team's actual details.
+
+---
+
+# Acknowledgements
+
+We would like to express our sincere gratitude to:
+
+- Solapur Municipal Corporation
+- SAMVED 2026 Innovation Challenge
+- Faculty mentors
+- Project reviewers
+- Healthcare professionals and domain experts whose insights contributed to the project's direction
+
+---
+
+# License
+
+This repository is intended for academic, research, and demonstration purposes.
+
+Unless otherwise specified, all project materials remain the intellectual property of the respective authors and contributors.
+
+---
+
+<p align="center">
+
+<strong>Arogya-SMC</strong>
+
+<br>
+
+Smart Public Health Monitoring & Decision Support System
+
+<br>
+
+Developed for Solapur Municipal Corporation
+
+</p>
