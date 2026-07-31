@@ -241,3 +241,129 @@ The platform processes information through a structured workflow beginning with 
 </p>
 
 ---
+# Key Features
+
+Arogya-SMC is designed as a modular public healthcare platform that supports multiple stakeholders while providing municipal authorities with centralized visibility into healthcare operations.
+
+## Core Features
+
+- Digital household survey management
+- ASHA worker field reporting
+- Citizen health service interface
+- Disease surveillance and monitoring
+- Municipal health analytics dashboard
+- Centralized healthcare database
+- Role-based authentication and authorization
+- Ward-level healthcare monitoring
+- Health awareness and advisory dissemination
+- Interactive dashboards for decision support
+- Modular backend services
+- Scalable architecture for future expansion
+
+---
+
+# Functional Modules
+
+The platform is organized into independent modules that collaborate through centralized backend services.
+
+| Module | Description |
+|---------|-------------|
+| Household Survey Management | Digitized household data collection by ASHA workers |
+| Disease Surveillance | Monitoring and reporting of communicable diseases |
+| Citizen Services | Public health information and service access |
+| Healthcare Administration | Management of healthcare records and operational data |
+| Municipal Analytics | Visualization of healthcare indicators and trends |
+| Notification Services | Dissemination of alerts, reminders, and public advisories |
+| Authentication | Secure access for different stakeholder roles |
+| Data Management | Centralized storage and retrieval of healthcare information |
+
+---
+
+# Repository Architecture
+
+The Arogya-SMC ecosystem is maintained as multiple repositories to promote modular development and independent deployment of platform components.
+
+| Repository | Description |
+|------------|-------------|
+| **Arogya-Smc-Platform-Documentation** | Central documentation, reports, architecture diagrams, screenshots, and project overview |
+| **arogya-smc-platform** | Municipal dashboard and administrative platform |
+| **arogya-smc-ASHA-app** | Flutter application for ASHA workers |
+| **arogya-asha-app-backend** | Backend services supporting the ASHA application |
+| **arogya-smc-public-app** | Citizen mobile application |
+| **arogya-public-app-backend** | Backend services supporting the Citizen application |
+
+---
+
+# Repository Links
+
+| Component | Repository |
+|-----------|------------|
+| Documentation | https://github.com/Hyper-Hickory/Arogya-Smc-Platform-Documentation |
+| Municipal Platform | https://github.com/Hyper-Hickory/arogya-smc-platform |
+| ASHA Application | https://github.com/Hyper-Hickory/arogya-smc-ASHA-app |
+| ASHA Backend | https://github.com/Hyper-Hickory/arogya-asha-app-backend |
+| Citizen Application | https://github.com/Hyper-Hickory/arogya-smc-public-app |
+| Citizen Backend | https://github.com/Hyper-Hickory/arogya-public-app-backend |
+
+---
+
+# Project Structure
+
+```text
+Arogya-Smc-Platform-Documentation
+│
+├── assets
+│   ├── architecture
+│   ├── achievements
+│   ├── banner.png
+│   ├── asha_app_1.jpeg
+│   ├── asha_app_2.jpeg
+│   ├── asha_app_3.jpeg
+│   ├── asha4.jpeg
+│   ├── public_app1.jpeg
+│   ├── public_app2.jpeg
+│   ├── public_app3.jpeg
+│   ├── Municipal_dashboard_1.png
+│   ├── Municipal_dashboard_2.png
+│   └── Municipal_dashboard_3.png
+│
+├── documentation
+│   ├── Project_Report.pdf
+│   ├── Idea_Submission.pdf
+│   └── ...
+│
+└── README.md
+```
+
+---
+
+# System Workflow
+
+The operational workflow of the Arogya-SMC platform follows a structured lifecycle from field-level data collection to administrative decision-making.
+
+1. ASHA workers collect healthcare information using the mobile application.
+2. Citizens interact with municipal healthcare services through the citizen application.
+3. Backend services validate and process incoming healthcare records.
+4. Information is securely stored in centralized databases.
+5. Municipal dashboards aggregate healthcare information.
+6. Analytics modules generate insights for administrators.
+7. Municipal authorities monitor trends and support evidence-based public health decisions.
+
+This workflow enables timely reporting, improved visibility, and data-driven healthcare management across the municipal ecosystem. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Design Principles
+
+The project was developed around the following engineering principles:
+
+- Modular architecture
+- Scalability
+- Maintainability
+- Separation of concerns
+- Secure data management
+- Role-based access
+- User-centric interfaces
+- Extensibility for future municipal healthcare requirements
+
+---
