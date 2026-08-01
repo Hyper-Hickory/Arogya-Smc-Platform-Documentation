@@ -136,32 +136,19 @@ The platform consists of independent applications for ASHA workers, citizens, he
 ---
 
 # Platform Modules
+<table>
+<tr>
+<td align="center" width="33%">
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="Assets/asha_app_1.jpeg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="Assets/asha_app_2.jpeg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="Assets/asha_app_3.jpeg" width="220"/>
-    </td>
-  </tr>
+## ASHA Worker Application
 
-  <tr>
-    <td align="center">
-      <img src="Assets/asha_app_4.jpeg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="Assets/asha_app_5.jpeg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="Assets/asha_app_6.jpeg" width="220"/>
-    </td>
-  </tr>
-</table>
+<img src="Assets/asha_app_1.jpeg" width="220"/>
+
+Designed for Accredited Social Health Activists (ASHAs), this application enables healthcare workers to digitally record household surveys, monitor pregnancies, track immunization schedules, report communicable diseases, and synchronize field data with the central platform.
+
+</td>
+
+<td align="center" width="33%">
 
 ## Citizen Application
 
