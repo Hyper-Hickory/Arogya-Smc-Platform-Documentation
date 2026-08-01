@@ -142,7 +142,16 @@ The platform consists of independent applications for ASHA workers, citizens, he
 
 ## ASHA Worker Application
 
-<img src="Assets/asha_app_1.jpeg" width="220"/>
+<table align="center">
+  <tr>
+    <td><img src="Assets/asha_app_1.jpeg" width="160"/></td>
+    <td><img src="Assets/asha_app_2.jpeg" width="160"/></td>
+  </tr>
+  <tr>
+    <td><img src="Assets/asha_app_3.jpeg" width="160"/></td>
+    <td><img src="Assets/asha4.jpeg" width="160"/></td>
+  </tr>
+</table>
 
 Designed for Accredited Social Health Activists (ASHAs), this application enables healthcare workers to digitally record household surveys, monitor pregnancies, track immunization schedules, report communicable diseases, and synchronize field data with the central platform.
 
@@ -152,7 +161,16 @@ Designed for Accredited Social Health Activists (ASHAs), this application enable
 
 ## Citizen Application
 
-<img src="Assets/public_app1.jpeg" width="220"/>
+<table align="center">
+  <tr>
+    <td><img src="Assets/public_app1.jpeg" width="160"/></td>
+    <td><img src="Assets/public_app2.jpeg" width="160"/></td>
+  </tr>
+  <tr>
+    <td><img src="Assets/public_app3.jpeg" width="160"/></td>
+    <td><img src="Assets/public_app4.jpeg" width="160"/></td>
+  </tr>
+</table>
 
 Provides citizens with access to health-related services, public advisories, awareness initiatives, and communication with municipal healthcare systems through a mobile-first interface.
 
@@ -162,7 +180,16 @@ Provides citizens with access to health-related services, public advisories, awa
 
 ## Municipal Dashboard
 
-<img src="Assets/Muncipal_dashboard_1.png" width="220"/>
+<table align="center">
+  <tr>
+    <td><img src="Assets/Muncipal_dashboard_1.png" width="160"/></td>
+    <td><img src="Assets/Muncipal_dashboard_2.png" width="160"/></td>
+  </tr>
+  <tr>
+    <td><img src="Assets/Muncipal_dashboard_3.png" width="160"/></td>
+    <td><img src="Assets/Muncipal_dashboard_4.png" width="160"/></td>
+  </tr>
+</table>
 
 A centralized dashboard designed for municipal authorities to visualize healthcare trends, monitor disease statistics, evaluate ward-level indicators, and support public health planning.
 
