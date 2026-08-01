@@ -176,12 +176,25 @@ A centralized dashboard designed for municipal authorities to visualize healthca
 
 ## ASHA Worker Application
 
-<p align="center">
-  <img src="Assets/asha_app_1.jpeg" width="220"/>
-  <img src="Assets/asha_app_2.jpeg" width="220"/>
-  <img src="Assets/asha_app_3.jpeg" width="220"/>
-  <img src="Assets/asha4.jpeg" width="220"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="Assets/asha_app_1.jpeg" width="220"/>
+    </td>
+    <td align="center">
+      <img src="Assets/asha_app_2.jpeg" width="220"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="Assets/asha_app_3.jpeg" width="220"/>
+    </td>
+    <td align="center">
+      <img src="Assets/asha4.jpeg" width="220"/>
+    </td>
+  </tr>
+</table>
 
 The ASHA application digitizes field operations by replacing manual registers with structured digital workflows. It enables healthcare workers to capture demographic information, conduct household surveys, report health events, and synchronize collected data with the municipal platform.
 
