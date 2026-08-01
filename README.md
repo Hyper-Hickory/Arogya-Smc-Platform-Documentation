@@ -225,11 +225,9 @@ The citizen application focuses on improving public engagement by providing heal
     </td>
   </tr>
   <tr>
-    <td></td>
     <td align="center">
       <img src="Assets/Muncipal_dashboard_3.png" width="320"/>
     </td>
-    <td></td>
   </tr>
 </table>
 
