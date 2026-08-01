@@ -215,11 +215,23 @@ The citizen application focuses on improving public engagement by providing heal
 
 ## Municipal Dashboard
 
-<p align="center">
-<img src="Assets/Muncipal_dashboard_1.png" width="30%">
-<img src="Assets/Muncipal_dashboard_2.png" width="30%">
-<img src="Assets/Muncipal_dashboard_3.png" width="30%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="Assets/Muncipal_dashboard_1.png" width="320"/>
+    </td>
+    <td align="center">
+      <img src="Assets/Muncipal_dashboard_2.png" width="320"/>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td align="center">
+      <img src="Assets/Muncipal_dashboard_3.png" width="320"/>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 The Municipal Dashboard aggregates information from multiple stakeholders and presents interactive visualizations to support healthcare administrators. It enables monitoring of disease distribution, demographic indicators, healthcare resources, and operational performance across municipal wards.
 
